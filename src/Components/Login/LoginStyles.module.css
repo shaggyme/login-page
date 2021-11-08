@@ -1,0 +1,200 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .loginContainer{
+        position: relative;  
+        background-image: none;
+    }
+
+    .paperStyle{
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+        height: auto;        
+        opacity: 1;
+    }
+
+    .logoStyle{
+        width: 100px; 
+        height: 50px;
+    }
+
+    .textStyle1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 27px;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        top: 90px;
+    }
+
+    .loginContainer h2{
+        padding: 5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .loginContainer{
+        position: relative;
+        height: 100vh;
+        width: 80%;
+        opacity: 0.9;
+        background-image: none;
+    }
+
+    .paperStyle{
+        padding: 10px;
+        margin-left: 25%;
+        height: auto; 
+        opacity: 1;
+    }
+
+    .logoStyle{
+        width: 100px; 
+        height: 50px;
+    }
+
+    .textStyle1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 27px;
+        top: 90px;
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+    .loginContainer h2{
+        padding: 5px;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .loginContainer{
+        height: 100vh;
+        width: 80%;
+        opacity: 0.9;
+        background-image: none;
+    }
+
+    .paperStyle{
+        padding: 10px;
+        margin-left: 25%;
+        height: auto; 
+        opacity: 1;
+    }
+
+    .logoStyle{
+        width: 100px; 
+        height: 50px;
+    }
+
+    .textStyle1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 27px;
+        top: 90px;
+        width: 80%;
+        margin: auto;
+        height: auto;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .loginContainer{
+        height: 100vh;
+        width: 100%;
+        opacity: 0.9;
+        background-image: url('../../Assets/Images/iitp1.jpg');
+
+    }
+    
+    .paperStyle{
+         position: absolute;
+         top: 30px;
+         margin-left: 70%;
+         margin-top: 70px;
+         padding: 15px;
+         height: 65vh; 
+         width: 250px; 
+         opacity: 0.80;
+    }   
+    
+    .textStyle1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: azure;
+        font-size: 27px;
+        position: absolute;
+        top: 7%;
+        margin-left: 25%;
+        height: auto;
+    }
+    
+    
+    .logoStyle{
+        width: 80px; 
+        height: 80px;
+    }
+    
+    .btStyle{
+        width: 50%;
+        margin: 12px 15px;
+        padding: 10px 24px;
+        border-radius: 16px;
+        opacity: 1;
+    }   
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .loginContainer{
+        height: 100vh;
+        width: 100%;
+        opacity: 0.9;
+        background-image: url('../../Assets/Images/iitp1.jpg');
+    }
+    
+    .paperStyle{
+         position: absolute;
+         top: 35px;
+         margin-left: 70%;
+         margin-top: 70px;
+         padding: 15px;
+         height: 65vh; 
+         width: 250px; 
+         opacity: 0.80;
+    }   
+    
+    .textStyle1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: azure;
+        font-size: 27px;
+        position: absolute;
+        top: 7%;
+        width: 80%;
+        margin-left: 25%;
+        height: auto;
+    }
+    
+    
+    .logoStyle{
+        width: 80px; 
+        height: 80px;
+    }
+    
+    .btStyle{
+        width: 50%;
+        margin: 12px 15px;
+        padding: 10px 24px;
+        border-radius: 16px;
+        opacity: 1;
+    }   
+}
